@@ -1,0 +1,5 @@
+include ':ObjectDetection'
+
+project(':ObjectDetection').projectDir = file('ObjectDetection/app')
+//include ':app'
+//rootProject.name = "ObjectDetection"
